@@ -13,8 +13,8 @@ wd.addPromiseChainMethod('swipe', actions.swipe);
 
 describe("android complex", function () {
   this.timeout(300000);
-  var driver;
-  var allPassed = true;
+  const driver;
+  const allPassed = true;
 
   before(function () {
     var serverConfig = process.env.npm_package_config_sauce ?
