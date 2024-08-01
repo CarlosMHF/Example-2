@@ -2,7 +2,7 @@
 
 require("./helpers/setup");
 
-var wd = require("wd"),
+const wd = require("wd"),
     _ = require('underscore'),
     actions = require("./helpers/actions"),
     serverConfigs = require('./helpers/appium-servers'),
